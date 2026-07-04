@@ -1,0 +1,53 @@
+.pd-wrap { max-width: 900px; margin: 0 auto; padding: 20px; }
+
+.pd-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.pd-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+
+.pd-actions button, .pd-actions a {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  background: #2d5be3;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.pd-back { background: #888 !important; }
+
+.pd-section {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+}
+
+.pd-section h3 { color: #1a3d7c; margin-bottom: 10px; }
+
+.pd-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px dashed #eee;
+  font-size: 14px;
+}
+
+.pd-label { font-weight: 600; color: #555; }
+
+.pd-track-item {
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 13px;
+}
+
+.pd-error { color: #c0392b; padding: 20px; }
